@@ -97,10 +97,10 @@ export default function ProjectPage({ params }) {
           {project.images.map((image) => (
             <div
               key={image.id}
-              className="relative h-64 rounded-lg overflow-hidden"
+              className="relative h-[450px] rounded-lg overflow-hidden"
             >
               <Image
-                src={`/images/${project.slug}/${image.id}.webp`}
+                src={`/images/${project.slug}/${image.id}.png`}
                 alt={image.alt}
                 fill
                 className="object-cover"
