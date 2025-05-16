@@ -19,7 +19,7 @@ export default function Home() {
             href={`/projects/${project.slug}`}
             className="group block bg-zinc-900/50 backdrop-blur-sm rounded-lg overflow-hidden hover:bg-zinc-800/50 transition-all duration-300 hover:scale-[1.02]"
           >
-            <div className="relative h-48 md:h-64">
+            <div className="relative h-72">
               <Image
                 src={project.thumbnail}
                 alt={project.name}

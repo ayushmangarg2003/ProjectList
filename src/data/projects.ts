@@ -35,7 +35,7 @@ export const projects: Project[] = [
     name: "College Mart",
     description: "An e-commerce platform designed specifically for college students to buy and sell items within their campus community.",
     longDescription: "College Mart is a comprehensive e-commerce platform that enables college students to buy, sell, and trade items within their campus community. The platform features user authentication, product listings with categories, search functionality, and a messaging system for buyers and sellers to communicate.",
-    thumbnail: "/images/collegemart/thumbnail.png",
+    thumbnail: "/images/collegemart/1.png",
     github: "https://github.com/ayushmangarg2003/CollegeMart",
     website: "https://college-mart-amber.vercel.app/",
     technologies: [
@@ -52,43 +52,45 @@ export const projects: Project[] = [
       "Responsive design for all devices"
     ],
     images: [
-      { id: 1, alt: "College Mart homepage", src: "/images/collegemart/homepage.png" },
-      { id: 2, alt: "Product listings page", src: "/images/collegemart/listings.png" },
-      { id: 3, alt: "Product detail view", src: "/images/collegemart/details.png" }
+      { id: 1, alt: "College Mart homepage", src: "/images/collegemart/1.png" },
+      { id: 2, alt: "Services page", src: "/images/collegemart/2.png" },
+      { id: 3, alt: "Marketplace detail view", src: "/images/collegemart/3.png" },
+      { id: 4, alt: "Product detail view", src: "/images/collegemart/4.png" },
+      { id: 5, alt: "Profile Page", src: "/images/collegemart/5.png" }
     ],
     month: "Aug-Oct",
     year: "2025"
   },
-  {
-    id: "2",
-    slug: "swaagfun",
-    name: "Swaagfun",
-    description: "A social media platform for sharing fashion trends and style inspiration with a focus on college students.",
-    longDescription: "Swaagfun is a fashion-oriented social media platform that allows users to share their outfits, discover new trends, and connect with others who share similar fashion interests. The application features a personalized feed, user profiles, post creation, and interaction capabilities.",
-    thumbnail: "/images/swaagfun/thumbnail.png",
-    github: "https://github.com/ayushmangarg2003",
-    website: "https://swaagfun.vercel.app/",
-    technologies: [
-      { name: "React", color: "bg-blue-500" },
-      { name: "MongoDB", color: "bg-green-500" },
-      { name: "Express", color: "bg-gray-700" },
-      { name: "Node.js", color: "bg-green-600" }
-    ],
-    features: [
-      "User authentication and profiles",
-      "Post creation with image uploads",
-      "Social interactions (likes, comments, follows)",
-      "Personalized feed algorithm",
-      "Trending fashion tags and discoveries"
-    ],
-    images: [
-      { id: 1, alt: "Swaagfun main feed", src: "/images/swaagfun/feed.png" },
-      { id: 2, alt: "User profile page", src: "/images/swaagfun/profile.png" },
-      { id: 3, alt: "Post creation interface", src: "/images/swaagfun/create.png" }
-    ],
-    month: "Jun-Jul",
-    year: "2024"
-  },
+  // {
+  //   id: "2",
+  //   slug: "swaagfun",
+  //   name: "Swaagfun",
+  //   description: "A social media platform for sharing fashion trends and style inspiration with a focus on college students.",
+  //   longDescription: "Swaagfun is a fashion-oriented social media platform that allows users to share their outfits, discover new trends, and connect with others who share similar fashion interests. The application features a personalized feed, user profiles, post creation, and interaction capabilities.",
+  //   thumbnail: "/images/swaagfun/thumbnail.png",
+  //   github: "https://github.com/ayushmangarg2003",
+  //   website: "https://swaagfun.vercel.app/",
+  //   technologies: [
+  //     { name: "React", color: "bg-blue-500" },
+  //     { name: "MongoDB", color: "bg-green-500" },
+  //     { name: "Express", color: "bg-gray-700" },
+  //     { name: "Node.js", color: "bg-green-600" }
+  //   ],
+  //   features: [
+  //     "User authentication and profiles",
+  //     "Post creation with image uploads",
+  //     "Social interactions (likes, comments, follows)",
+  //     "Personalized feed algorithm",
+  //     "Trending fashion tags and discoveries"
+  //   ],
+  //   images: [
+  //     { id: 1, alt: "Swaagfun main feed", src: "/images/swaagfun/feed.png" },
+  //     { id: 2, alt: "User profile page", src: "/images/swaagfun/profile.png" },
+  //     { id: 3, alt: "Post creation interface", src: "/images/swaagfun/create.png" }
+  //   ],
+  //   month: "Jun-Jul",
+  //   year: "2024"
+  // },
   {
     id: "3",
     slug: "homestayz",
@@ -114,41 +116,44 @@ export const projects: Project[] = [
     images: [
       { id: 1, alt: "Homestayz Homepage", src: "/images/homestayz/1.png" },
       { id: 2, alt: "Property Page", src: "/images/homestayz/2.png" },
-      { id: 3, alt: "Booking Details", src: "/images/homestayz/3.png" }
+      { id: 3, alt: "Booking Details", src: "/images/homestayz/3.png" },
+      { id: 4, alt: "About Page", src: "/images/homestayz/4.png" },
+      { id: 5, alt: "Contact Page", src: "/images/homestayz/5.png" },
+      { id: 6, alt: "Register Page", src: "/images/homestayz/6.png" },
     ],
     month: "March",
     year: "2024"
   },
-  {
-    id: "4",
-    slug: "journal",
-    name: "JournalHub",
-    description: "A digital journaling platform for users to document their thoughts, goals, and daily experiences.",
-    longDescription: "JournalHub is a feature-rich digital journaling application that helps users document their thoughts, track goals, and maintain daily records of their experiences. The platform includes rich text editing, template options, mood tracking, and secure cloud storage for entries with privacy controls.",
-    thumbnail: "/images/journal/thumbnail.png",
-    github: "https://github.com/ayushmangarg2003/Journal",
-    website: "https://journalhub.vercel.app/",
-    technologies: [
-      { name: "React", color: "bg-blue-500" },
-      { name: "MongoDB", color: "bg-green-500" },
-      { name: "Express", color: "bg-gray-700" },
-      { name: "Node.js", color: "bg-green-600" }
-    ],
-    features: [
-      "Rich text editor for entries",
-      "Journal templates and prompts",
-      "Mood and habit tracking",
-      "Search and filtering capabilities",
-      "Data export and backup options"
-    ],
-    images: [
-      { id: 1, alt: "JournalHub dashboard", src: "/images/journal/dashboard.png" },
-      { id: 2, alt: "Journal entry editor", src: "/images/journal/editor.png" },
-      { id: 3, alt: "Statistics and tracking", src: "/images/journal/stats.png" }
-    ],
-    month: "February",
-    year: "2024"
-  }
+  // {
+  //   id: "4",
+  //   slug: "journal",
+  //   name: "JournalHub",
+  //   description: "A digital journaling platform for users to document their thoughts, goals, and daily experiences.",
+  //   longDescription: "JournalHub is a feature-rich digital journaling application that helps users document their thoughts, track goals, and maintain daily records of their experiences. The platform includes rich text editing, template options, mood tracking, and secure cloud storage for entries with privacy controls.",
+  //   thumbnail: "/images/journal/thumbnail.png",
+  //   github: "https://github.com/ayushmangarg2003/Journal",
+  //   website: "https://journalhub.vercel.app/",
+  //   technologies: [
+  //     { name: "React", color: "bg-blue-500" },
+  //     { name: "MongoDB", color: "bg-green-500" },
+  //     { name: "Express", color: "bg-gray-700" },
+  //     { name: "Node.js", color: "bg-green-600" }
+  //   ],
+  //   features: [
+  //     "Rich text editor for entries",
+  //     "Journal templates and prompts",
+  //     "Mood and habit tracking",
+  //     "Search and filtering capabilities",
+  //     "Data export and backup options"
+  //   ],
+  //   images: [
+  //     { id: 1, alt: "JournalHub dashboard", src: "/images/journal/dashboard.png" },
+  //     { id: 2, alt: "Journal entry editor", src: "/images/journal/editor.png" },
+  //     { id: 3, alt: "Statistics and tracking", src: "/images/journal/stats.png" }
+  //   ],
+  //   month: "February",
+  //   year: "2024"
+  // }
 ];
 
 // Helper function to get a project by slug
