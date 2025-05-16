@@ -3,6 +3,7 @@
 export type ProjectImage = {
   id: number;
   alt: string;
+  src: string;
 };
 
 export type Technology = {
@@ -34,7 +35,7 @@ export const projects: Project[] = [
     name: "College Mart",
     description: "An e-commerce platform designed specifically for college students to buy and sell items within their campus community.",
     longDescription: "College Mart is a comprehensive e-commerce platform that enables college students to buy, sell, and trade items within their campus community. The platform features user authentication, product listings with categories, search functionality, and a messaging system for buyers and sellers to communicate.",
-    thumbnail: "/images/collegemart/1.webp",
+    thumbnail: "/images/collegemart/thumbnail.webp",
     github: "https://github.com/ayushmangarg2003/CollegeMart",
     website: "https://college-mart-amber.vercel.app/",
     technologies: [
@@ -51,9 +52,9 @@ export const projects: Project[] = [
       "Responsive design for all devices"
     ],
     images: [
-      { id: 1, alt: "College Mart homepage" },
-      { id: 2, alt: "Product listings page" },
-      { id: 3, alt: "Product detail view" }
+      { id: 1, alt: "College Mart homepage", src: "/images/collegemart/homepage.webp" },
+      { id: 2, alt: "Product listings page", src: "/images/collegemart/listings.webp" },
+      { id: 3, alt: "Product detail view", src: "/images/collegemart/details.webp" }
     ],
     month: "Aug-Oct",
     year: "2025"
@@ -64,7 +65,7 @@ export const projects: Project[] = [
     name: "Swaagfun",
     description: "A social media platform for sharing fashion trends and style inspiration with a focus on college students.",
     longDescription: "Swaagfun is a fashion-oriented social media platform that allows users to share their outfits, discover new trends, and connect with others who share similar fashion interests. The application features a personalized feed, user profiles, post creation, and interaction capabilities.",
-    thumbnail: "/images/swaagfun/1.webp",
+    thumbnail: "/images/swaagfun/thumbnail.webp",
     github: "https://github.com/ayushmangarg2003",
     website: "https://swaagfun.vercel.app/",
     technologies: [
@@ -81,9 +82,9 @@ export const projects: Project[] = [
       "Trending fashion tags and discoveries"
     ],
     images: [
-      { id: 1, alt: "Swaagfun main feed" },
-      { id: 2, alt: "User profile page" },
-      { id: 3, alt: "Post creation interface" }
+      { id: 1, alt: "Swaagfun main feed", src: "/images/swaagfun/feed.webp" },
+      { id: 2, alt: "User profile page", src: "/images/swaagfun/profile.webp" },
+      { id: 3, alt: "Post creation interface", src: "/images/swaagfun/create.webp" }
     ],
     month: "Jun-Jul",
     year: "2024"
@@ -94,7 +95,7 @@ export const projects: Project[] = [
     name: "Homestayz",
     description: "A modern property rental platform focused on providing comfortable stays for travelers and vacationers.",
     longDescription: "Homestayz is a comprehensive property rental platform that connects property owners with travelers looking for comfortable and unique accommodations. The application includes property listings with detailed information, booking capabilities, user reviews, and a responsive design for seamless user experience across devices.",
-    thumbnail: "/images/homestayz/1.webp",
+    thumbnail: "/images/homestayz/thumbnail.webp",
     github: "https://github.com/ayushmangarg2003/homestayz",
     website: "https://homestayz.vercel.app/",
     technologies: [
@@ -111,9 +112,9 @@ export const projects: Project[] = [
       "Host and guest messaging"
     ],
     images: [
-      { id: 1, alt: "Homestayz homepage" },
-      { id: 2, alt: "Property details page" },
-      { id: 3, alt: "Booking interface" }
+      { id: 1, alt: "Homestayz homepage", src: "/images/homestayz/homepage.webp" },
+      { id: 2, alt: "Property details page", src: "/images/homestayz/details.webp" },
+      { id: 3, alt: "Booking interface", src: "/images/homestayz/booking.webp" }
     ],
     month: "March",
     year: "2024"
@@ -124,7 +125,7 @@ export const projects: Project[] = [
     name: "JournalHub",
     description: "A digital journaling platform for users to document their thoughts, goals, and daily experiences.",
     longDescription: "JournalHub is a feature-rich digital journaling application that helps users document their thoughts, track goals, and maintain daily records of their experiences. The platform includes rich text editing, template options, mood tracking, and secure cloud storage for entries with privacy controls.",
-    thumbnail: "/images/journal/1.webp",
+    thumbnail: "/images/journal/thumbnail.webp",
     github: "https://github.com/ayushmangarg2003/Journal",
     website: "https://journalhub.vercel.app/",
     technologies: [
@@ -141,9 +142,9 @@ export const projects: Project[] = [
       "Data export and backup options"
     ],
     images: [
-      { id: 1, alt: "JournalHub dashboard" },
-      { id: 2, alt: "Journal entry editor" },
-      { id: 3, alt: "Statistics and tracking" }
+      { id: 1, alt: "JournalHub dashboard", src: "/images/journal/dashboard.webp" },
+      { id: 2, alt: "Journal entry editor", src: "/images/journal/editor.webp" },
+      { id: 3, alt: "Statistics and tracking", src: "/images/journal/stats.webp" }
     ],
     month: "February",
     year: "2024"
