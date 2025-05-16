@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProjectBySlug } from "@/data/projects";
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+export default function ProjectPage({ params }) {
   const project = getProjectBySlug(params.slug);
 
   if (!project) {
