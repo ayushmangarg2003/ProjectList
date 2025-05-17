@@ -58,7 +58,7 @@ export const projects: Project[] = [
       { id: 4, alt: "Product detail view", src: "/images/collegemart/4.png" },
       { id: 5, alt: "Profile Page", src: "/images/collegemart/5.png" }
     ],
-    month: "Aug-Oct",
+    month: "March",
     year: "2025"
   },
   // {
@@ -92,6 +92,38 @@ export const projects: Project[] = [
   //   year: "2024"
   // },
   {
+    id: "4",
+    slug: "ghackk",
+    name: "GHackk",
+    description: "A modern tech agency website showcasing services, portfolio, and blog with smooth animations and responsive design.",
+    longDescription: "GHackk is a cutting-edge tech agency website built with Next.js and Tailwind CSS. The platform features a modern, minimalist design with smooth animations, interactive elements, and a comprehensive blog section. The website effectively showcases the agency's services, portfolio, and thought leadership through an engaging user experience.",
+    thumbnail: "/images/ghackk/1.png",
+    github: "https://github.com/ayushmangarg2003/ghackk",
+    website: "https://ghackk.com",
+    technologies: [
+      { name: "Next.js", color: "bg-black text-white" },
+      { name: "React", color: "bg-blue-500" },
+      { name: "Tailwind CSS", color: "bg-cyan-500" },
+      { name: "Framer Motion", color: "bg-purple-600" }
+    ],
+    features: [
+      "Modern and responsive design",
+      "Smooth animations and transitions",
+      "Interactive UI components",
+      "Blog section with rich content",
+      "Portfolio showcase with case studies"
+    ],
+    images: [
+      { id: 1, alt: "GHackk homepage", src: "/images/ghackk/1.png" },
+      { id: 2, alt: "GHackk Page 2", src: "/images/ghackk/2.png" },
+      { id: 3, alt: "GHackk Page 3", src: "/images/ghackk/3.png" },
+      { id: 4, alt: "GHackk Page 4", src: "/images/ghackk/4.png" },
+      { id: 5, alt: "GHackk Page 5", src: "/images/ghackk/5.png" }
+    ],
+    month: "February",
+    year: "2025"
+  },
+  {
     id: "3",
     slug: "homestayz",
     name: "Homestayz",
@@ -121,39 +153,9 @@ export const projects: Project[] = [
       { id: 5, alt: "Contact Page", src: "/images/homestayz/5.png" },
       { id: 6, alt: "Register Page", src: "/images/homestayz/6.png" },
     ],
-    month: "March",
+    month: "April",
     year: "2024"
   },
-  // {
-  //   id: "4",
-  //   slug: "journal",
-  //   name: "JournalHub",
-  //   description: "A digital journaling platform for users to document their thoughts, goals, and daily experiences.",
-  //   longDescription: "JournalHub is a feature-rich digital journaling application that helps users document their thoughts, track goals, and maintain daily records of their experiences. The platform includes rich text editing, template options, mood tracking, and secure cloud storage for entries with privacy controls.",
-  //   thumbnail: "/images/journal/thumbnail.png",
-  //   github: "https://github.com/ayushmangarg2003/Journal",
-  //   website: "https://journalhub.vercel.app/",
-  //   technologies: [
-  //     { name: "React", color: "bg-blue-500" },
-  //     { name: "MongoDB", color: "bg-green-500" },
-  //     { name: "Express", color: "bg-gray-700" },
-  //     { name: "Node.js", color: "bg-green-600" }
-  //   ],
-  //   features: [
-  //     "Rich text editor for entries",
-  //     "Journal templates and prompts",
-  //     "Mood and habit tracking",
-  //     "Search and filtering capabilities",
-  //     "Data export and backup options"
-  //   ],
-  //   images: [
-  //     { id: 1, alt: "JournalHub dashboard", src: "/images/journal/dashboard.png" },
-  //     { id: 2, alt: "Journal entry editor", src: "/images/journal/editor.png" },
-  //     { id: 3, alt: "Statistics and tracking", src: "/images/journal/stats.png" }
-  //   ],
-  //   month: "February",
-  //   year: "2024"
-  // }
 ];
 
 // Helper function to get a project by slug
