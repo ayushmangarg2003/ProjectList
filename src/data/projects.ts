@@ -98,7 +98,7 @@ export const projects: Project[] = [
     description: "A modern tech agency website showcasing services, portfolio, and blog with smooth animations and responsive design.",
     longDescription: "GHackk is a cutting-edge tech agency website built with Next.js and Tailwind CSS. The platform features a modern, minimalist design with smooth animations, interactive elements, and a comprehensive blog section. The website effectively showcases the agency's services, portfolio, and thought leadership through an engaging user experience.",
     thumbnail: "/images/ghackk/1.png",
-    github: "https://github.com/ayushmangarg2003/ghackk",
+    github: "https://github.com/ayushmangarg2003/",
     website: "https://ghackk.com",
     technologies: [
       { name: "Next.js", color: "bg-black text-white" },
@@ -120,7 +120,7 @@ export const projects: Project[] = [
       { id: 4, alt: "GHackk Page 4", src: "/images/ghackk/4.png" },
       { id: 5, alt: "GHackk Page 5", src: "/images/ghackk/5.png" }
     ],
-    month: "February",
+    month: "January",
     year: "2025"
   },
   {
