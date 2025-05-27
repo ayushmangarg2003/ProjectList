@@ -1,14 +1,27 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getProjectBySlug } from "@/data/projects";
+import { useState } from "react";
+import ImageModal from "@/components/ImageModal";
 
 export default function ProjectPage({ params }) {
   const project = getProjectBySlug(params.slug);
+  const [selectedImage, setSelectedImage] = useState(null);
 
   if (!project) {
     notFound();
   }
+
+  const handleImageClick = (image) => {
+    setSelectedImage(image);
+  };
+
+  const handleCloseModal = () => {
+    setSelectedImage(null);
+  };
 
   return (
     <div className="max-w-4xl mx-auto space-y-8">
@@ -23,7 +36,8 @@ export default function ProjectPage({ params }) {
         <p className="text-zinc-400">{project.longDescription}</p>
       </div>
 
-      <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden">
+      <div className="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden cursor-pointer"
+           onClick={() => handleImageClick({ src: project.thumbnail, alt: project.name })}>
         <Image
           src={project.thumbnail}
           alt={project.name}
@@ -97,18 +111,25 @@ export default function ProjectPage({ params }) {
           {project.images.map((image) => (
             <div
               key={image.id}
-              className="relative h-[450px] rounded-lg overflow-hidden"
+              className="relative h-[450px] rounded-lg overflow-hidden cursor-pointer"
+              onClick={() => handleImageClick({ src: `/images/${project.slug}/${image.id}.png`, alt: image.alt })}
             >
               <Image
                 src={`/images/${project.slug}/${image.id}.png`}
                 alt={image.alt}
                 fill
-                className="object-cover"
+                className="object-cover hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
         </div>
       </div>
+
+      <ImageModal
+        isOpen={!!selectedImage}
+        onClose={handleCloseModal}
+        image={selectedImage}
+      />
     </div>
   );
 } 

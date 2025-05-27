@@ -61,36 +61,6 @@ export const projects: Project[] = [
     month: "March",
     year: "2025"
   },
-  // {
-  //   id: "2",
-  //   slug: "swaagfun",
-  //   name: "Swaagfun",
-  //   description: "A social media platform for sharing fashion trends and style inspiration with a focus on college students.",
-  //   longDescription: "Swaagfun is a fashion-oriented social media platform that allows users to share their outfits, discover new trends, and connect with others who share similar fashion interests. The application features a personalized feed, user profiles, post creation, and interaction capabilities.",
-  //   thumbnail: "/images/swaagfun/thumbnail.png",
-  //   github: "https://github.com/ayushmangarg2003",
-  //   website: "https://swaagfun.vercel.app/",
-  //   technologies: [
-  //     { name: "React", color: "bg-blue-500" },
-  //     { name: "MongoDB", color: "bg-green-500" },
-  //     { name: "Express", color: "bg-gray-700" },
-  //     { name: "Node.js", color: "bg-green-600" }
-  //   ],
-  //   features: [
-  //     "User authentication and profiles",
-  //     "Post creation with image uploads",
-  //     "Social interactions (likes, comments, follows)",
-  //     "Personalized feed algorithm",
-  //     "Trending fashion tags and discoveries"
-  //   ],
-  //   images: [
-  //     { id: 1, alt: "Swaagfun main feed", src: "/images/swaagfun/feed.png" },
-  //     { id: 2, alt: "User profile page", src: "/images/swaagfun/profile.png" },
-  //     { id: 3, alt: "Post creation interface", src: "/images/swaagfun/create.png" }
-  //   ],
-  //   month: "Jun-Jul",
-  //   year: "2024"
-  // },
   {
     id: "4",
     slug: "ghackk",
